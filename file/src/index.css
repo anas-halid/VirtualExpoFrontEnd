@@ -1,0 +1,504 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 3d title */
+
+
+/*till here */
+
+/* This is the 360 viweer */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+
+
+}
+
+
+#panel {
+  width: 320px;
+  height: 240px;
+  background-color: #fff;
+}
+
+
+/* Up till here */
+
+
+
+#bground{
+align-self: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* button & button center */
+
+#container{  
+  text-align: center;  
+  width: 300px;  
+  height: 200px;  
+  padding-top: 100px;  
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  }  
+
+  
+
+
+button{
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 16px;
+  background: #fff;
+  color: #4E6E83;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+  :hover{
+      background: rgba(255,255,255,0.9);
+      box-shadow: 0 6px 20px rgb(93 93 93 / 23%);
+  }
+  
+  }
+
+/* Up till here */
+
+/*Contact page*/
+h2{
+  text-align: center;
+  font-size: 175%;
+  font-weight: bold;
+}
+.divTable
+{
+    display: table;
+    width:60%;
+    /* background-color:#d89eff; */
+    border: none;
+    border-spacing:5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+}
+
+.divhead {
+  background-color: #A500FF;
+  text-align: center; 
+  float: left;
+  display: table-column;
+  width: 33.3%;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+.divRow
+{
+    width:inherit;
+    display:table-row;
+}
+  
+.divCell
+{
+    text-align: left;
+    width:33.3%;
+    float:left;
+    display:table-column;
+    border-bottom: outset 1px;
+    padding: 10px;
+    background-color: #f3ddff;
+}
+/* about us */
+.header {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25%;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+.wave {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(200% + 1.3px);
+  height: 171px;
+}
+
+.wave .shape-fill {
+  fill: #668A9C;
+}
+
+.divCells
+{
+    text-align: center;
+    width:100%;
+    font-size: 16x;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: outset 1px;
+    padding: 10px;
+    background-color: #f3ddff;
+    font-weight:500;
+    opacity: 0.8;
+    
+}
+/* about os */
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#centeralign{
+
+  text-align: center;
+}
+
+/* The Parallelograms */
+
+#menu{  
+  text-align: center;
+  width: 110px;
+	height: 75px;
+	transform: skew(0deg, 30deg);
+  color: #fff;
+  background: #4E6E83;
+  transition: width 2s, height 4s;
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  
+}
+
+#menu:hover {
+  width: 137px;
+ 
+}
+
+#menuright{  
+  text-align: center;
+  width: 110px;
+	height: 75px;
+	transform: skew(0deg, -30deg);
+  color: #fff;
+  background: #4E6E83;
+  transition: width 2s, height 4s;
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+#menuright:hover {
+  width: 137px;
+
+}
+
+
+/* till here */
+
+ul.menu {
+  display: inline-block;
+  text-align: left;
+}
+
+@media only screen and (min-width: 505px) {
+  #test {
+    margin-left: 545px;
+    
+  }
+}
+
+@media only screen and (max-width: 505px) {
+
+}
+
+/* Text fade in animation*/
+
+.fade-in-text {
+  color: #fff;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position: static;
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 4em;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #919191,
+      1px 3px 1px #919191,
+      1px 4px 1px #919191,
+      1px 5px 1px #919191,
+      1px 6px 1px #919191,
+      1px 7px 1px #919191,
+      1px 8px 1px #919191,
+      1px 9px 1px #919191,
+      1px 10px 1px #919191,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* till here */
+
+img{
+max-width: 100%;
+max-height: 100%;
+}
+
+h1{
+  text-align: center;
+}
+#box{
+      float: right;
+      position: relative;
+    top: 100;
+}
+      #example{
+     position: relative;
+     width: 520px;
+     height: 220px;
+   }
+
+   @media only screen and (min-width: 505px) {
+    #player {
+      width: 17px;
+      height: 24px;
+       background: rgba(0,0,0,0.0); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+      position: relative;
+      margin-left: 545px; /*<--- important dont remove that*/
+      top: 60px;
+      right: -40px;
+      
+    }
+  }
+/* this is the area where the player with it's hitbox....here ill display the hitbox - Anas */
+   #player {
+       width: 17px;
+       height: 24px;
+        background: rgba(0,0,0,0.0); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+       position: relative;
+       top: 60px;
+       right: -40px;
+       
+   }
+   #newbdackground {
+    position: static;
+       width: 900px;
+       height: 500px;
+       top: 0;
+       top: 60px;
+       right: -40px;
+   }
+   #red-area {
+    width: 37px;
+    height: 50px;
+   background:  rgba(0,0,0,0.5); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+    position: relative;
+    top: 140px;
+    left: 200px;
+}
+
+#blue-area {
+ width: 37px;
+ height: 50px;
+background:  rgba(0,0,0,0.5); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+ position: relative;
+ top: 140px;
+ left: 200px;
+}
+
+#yellow-area {
+  width: 37px;
+  height: 50px;
+ background:  rgba(0,0,0,0.5); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+  position: relative;
+  top: 140px;
+  left: 200px;
+ }
+ 
+ 
+
+
+
+   
+
+
+@media only screen and (min-width: 505px) {
+  #red-area {
+    width: 37px;
+    height: 50px;
+    margin-left: 545px; /*<--- important dont remove that*/
+   background:  rgba(0,0,0,0.5); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+    position: relative;
+    top: 140px;
+    left: 200px;
+}
+
+#blue-area {
+  width: 37px;
+  height: 50px;
+  margin-left: 545px; /*<--- important dont remove that*/
+ background:  rgba(0,0,0,0.5); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+  position: relative;
+  top: 140px;
+  left: 200px;
+}
+#yellow-area {
+  width: 37px;
+  height: 50px;
+  margin-left: 545px; /*<--- important dont remove that*/
+ background:  rgba(0,0,0,0.5); /* to make the hitbox dissapear [like in the website demo], you make it transparent like this [background:  rgba(0,0,0,0.0);] */
+  position: relative;
+  top: 140px;
+  left: 200px;
+}
+ }
+ 
+
+ .Product-List{
+  display: flex;
+  flex-direction: column;
+ }
+
+/*    product page */
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height:60px;
+  color:#555;
+}
+.title::after{
+  content:'';
+  background: #ff523b;
+  width:80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%)
+}
+.small-container{
+  text-align: center;
+  max-width: 1440px;
+  margin:auto;
+  padding-left: 25px;
+  padding-right:25px;
+}
+.small-container li{
+  text-align: center;
+}
+.row {
+  display: block;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4{
+  flex-basis: 25%;
+  padding:10px;
+  min-width:200px;
+  margin-bottom:50px;
+  transition: transform 0.5s;
+}
+.col-4 img{
+  
+  width:30%;
+
+}
+.button{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.button:hover{
+  background: #563434;
+}
+
+.h4{
+  font-size: 24px;
+  color: #555;
+  font-weight: bold;
+}
+.col-4 p{
+  font-size:14px;
+  color:#555;
+
+}
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  
+
+}
+
+/*     end of products page */
