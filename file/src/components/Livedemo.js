@@ -12,7 +12,7 @@ export default function Livedemo() {
     
     useEffect(() => {
       if (window.location.href.indexOf('Xiaomi') > -1){
-      fetch('/Xiaomi/Livedemo')
+      fetch('https://virtual-expo-backend.onrender.com/Xiaomi/Livedemo')
         .then((response) => response.json())
         .then((data) => setData(data))}
     }, [])
@@ -20,7 +20,7 @@ export default function Livedemo() {
 
     useEffect(() => {
       if (window.location.href.indexOf('Huawei') > -1){
-      fetch('/Huawei/Livedemo')
+      fetch('https://virtual-expo-backend.onrender.com/Huawei/Livedemo')
         .then((response) => response.json())
         .then((data) => setData(data))}
     }, [])
@@ -28,7 +28,7 @@ export default function Livedemo() {
     
     useEffect(() => {
       if (window.location.href.indexOf('Oppo') > -1){
-      fetch('/Oppo/Livedemo')
+      fetch('https://virtual-expo-backend.onrender.com/Oppo/Livedemo')
         .then((response) => response.json())
         .then((data) => setData(data))}
     }, [])
@@ -37,7 +37,7 @@ export default function Livedemo() {
     
     useEffect(() => {
       if (window.location.href.indexOf('Acer') > -1){
-      fetch('/Acer/Livedemo')
+      fetch('https://virtual-expo-backend.onrender.com/Acer/Livedemo')
         .then((response) => response.json())
         .then((data) => setData(data))}
     }, [])
@@ -45,7 +45,7 @@ export default function Livedemo() {
 
     useEffect(() => {
       if (window.location.href.indexOf('Asus') > -1){
-      fetch('/Asus/Livedemo')
+      fetch('https://virtual-expo-backend.onrender.com/Asus/Livedemo')
         .then((response) => response.json())
         .then((data) => setData(data))}
     }, [])
@@ -53,7 +53,7 @@ export default function Livedemo() {
 
     useEffect(() => {
       if (window.location.href.indexOf('Nvidia') > -1){
-      fetch('/Nvidia/Livedemo')
+      fetch('https://virtual-expo-backend.onrender.com/Nvidia/Livedemo')
         .then((response) => response.json())
         .then((data) => setData(data))}
     }, [])

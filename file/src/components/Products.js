@@ -1,6 +1,7 @@
 import {Component, useEffect, useState} from 'react';
 import axios from 'axios'
 
+
 /*
 mongodb.connect(
     connectionString,
@@ -31,10 +32,10 @@ function Products() {
 
    
       const [data, setData] = useState([])
-    
+  
       useEffect(() => {
         if (window.location.href.indexOf('Xiaomi') > -1){
-        fetch('/Xiaomi/items')
+        fetch('https://virtual-expo-backend.onrender.com/xiaomi/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])
@@ -42,7 +43,7 @@ function Products() {
 
       useEffect(() => {
         if (window.location.href.indexOf('Huawei') > -1){
-        fetch('/Huawei/items')
+        fetch('https://virtual-expo-backend.onrender.com/Huawei/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])
@@ -50,7 +51,7 @@ function Products() {
       
       useEffect(() => {
         if (window.location.href.indexOf('Oppo') > -1){
-        fetch('/Oppo/items')
+        fetch('https://virtual-expo-backend.onrender.com/Oppo/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])
@@ -59,7 +60,7 @@ function Products() {
       
       useEffect(() => {
         if (window.location.href.indexOf('Acer') > -1){
-        fetch('/Acer/items')
+        fetch('https://virtual-expo-backend.onrender.com/Acer/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])
@@ -67,7 +68,7 @@ function Products() {
 
       useEffect(() => {
         if (window.location.href.indexOf('Asus') > -1){
-        fetch('/Asus/items')
+        fetch('https://virtual-expo-backend.onrender.com/Asus/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])
@@ -75,7 +76,7 @@ function Products() {
 
       useEffect(() => {
         if (window.location.href.indexOf('Nvidia') > -1){
-        fetch('/Nvidia/items')
+        fetch('https://virtual-expo-backend.onrender.com/Nvidia/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])

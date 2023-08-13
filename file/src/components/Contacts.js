@@ -19,36 +19,36 @@ export default function Contacts() {
                   <div class="divRow">
                   <div class="divCell">CEO</div>
                       <div class="divCell">Halideen Anas</div>
-                      <div class="divCell">anashalideen@gmail.com</div>
+                      <div class="divCell">anashalid--n@gmail.com</div>
                   </div>
                   <div class="divRow">
                   <div class="divCell">Backend Developer</div>
                       <div class="divCell">Reisya Dharmawangsa Bagus</div>
-                      <div class="divCell">reisyabagus13122003@gmail.com</div>
+                      <div class="divCell">reisyabagus131--003@gmail.com</div>
                       
                   </div>
                   <div class="divRow">
                   <div class="divCell">Backend Developer</div>
                       <div class="divCell">Malik Mohammad Mujtaba</div>
-                      <div class="divCell">mujtabamalik12@gmail.com</div>
+                      <div class="divCell">mujtabamalik--@gmail.com</div>
                       
                   </div>
                   <div class="divRow">
                   <div class="divCell">Front-end Developer</div>
                       <div class="divCell">Malik Talha</div>
-                      <div class="divCell">talha_619@outlook.com</div>
+                      <div class="divCell">talha_6--@outlook.com</div>
                       
                   </div>
                   <div class="divRow">
                   <div class="divCell">UI/UX Developer</div>
                       <div class="divCell">Brijesh Gurung </div>
-                      <div class="divCell">brijeshgurung187@gmail.com</div>
+                      <div class="divCell">brijeshgurung--7@gmail.com</div>
                       
                   </div>
                   <div class="divRow">
                   <div class="divCell">Business Analyst</div>
                       <div class="divCell">Mubarak Ali Mubassara Sirin</div>
-                      <div class="divCell">sally556692@gmail.com</div>
+                      <div class="divCell">sally55--92@gmail.com</div>
                       
                   </div>
               </div>
